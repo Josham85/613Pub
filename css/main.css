@@ -94,6 +94,16 @@
 * {
   box-sizing: border-box; }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+}
+.grid-item {
+  padding: 5px;
+  font-size: 30px;
+}
+
 html {
   font-size: 10px; }
 
@@ -290,6 +300,11 @@ main {
     width: 250px;
     height: auto;
   }
+  body#bg-img {
+    background: url(../img/pub_background.jpg);
+    background-attachment: fixed;
+    background-size: cover; }
+    
   }
 
 @media screen and (max-width: 500px) {
